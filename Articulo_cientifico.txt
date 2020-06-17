@@ -1,0 +1,76 @@
+\Articulo_cientifico{beamer}
+
+\usepackage[utf8]{inputenc}
+
+
+%Information
+\title{EFICIENCIA del Sofosbuvir en Sars Cov 2 RdRp desde el punto de vista evolutivo }
+\author{Munguia Hernández Christopher}
+\institute{Universidad Nacional Autonoma de Mexico}
+\date{2020}
+
+
+
+\begin{articulo cinetifico}
+
+
+
+
+\frame{\introduccion}
+
+\begin{introduccion}
+\frametitle{introduccion}
+El SARS-CoV-2 es un Betacoronavirus como los coronavirus humanos SARS y MERS Hasta hoy, se han detectado siete cepas diferentes de coronavirus humanos (HCoV) (229E y NL63 (Alphacoronaviruses), y OC43, HKU1, SARS, MERS y SARS-CoV-2 (Betacoronaviruses)) (Elfiky et al., 2017; Hui et al., 2020; OMS., 2016). Los coronavirus humanos son virus de ARN de sentido positivo. Dos tipos de proteínas caracterizan los HCoV, estructurales (Spike (S), Nucleocapside (N), Matrix (M) y Envolutra(E)) y proteínas no estructurales (nsp1 hasta nsp16), incluida la ARN polimerasa dependiente de ARN (RdRp) (nsp12) (Elfiky et al., 2017; Hasan et al., 2020). RdRp es una enzima vital para el ciclo de vida de los virus de ARN. Se ha dirigido a varias infecciones virales (VHC, virus Zika, ZIKV y VHC). El sitio activo de RdRp se conserva entre diferentes organismos, mientras que dos residuos sucesivos de aspartato expuestos a la superficie sobresalen de un motivo de giro beta. Varios estudios sugieren la efectividad de diferentes fármacos y compuestos antivirales contra las proteínas del coronavirus (Aanouz et al., 2020; Boopathi et al., 2020; Elfiky & Azzam, 2020; Elmezayen et al., 2020; Enayatkhani et al. , 2020; Gupta et al., 2020; Khan et al., 2020a, 2020b; Muralidharan et al., 2020; Pant et al., 2020; Sarma et al., 2020).
+RdRp es una enzima vital para el ciclo de vida de los virus del ARN. Este, ha sido objeto de diversas infecciones virales como VHC, virus del Zika. Usando programas como “NAMD” y “Vina” para realizar los cálculos de dinámica molecular. Con un total de 31 compuestos fueron probados en modelos para SARSCoV-2 RdRp. Además de cuatro nucleótidos fisiológicos (GTP, UTP, CTP y ATP), y otros seis fármacos aprobados contra diferentes virus, en conjunto con 4 compuestos derivados de IDX 184.  (Doublie y Ellenberger, 1998; Elfiky, 2020a; Elfiky e Ismail, 2018).
+
+\end{introduccion}
+
+
+\frame{\Objetivo}
+
+\begin{objetivo}
+\frametitle{objetivo}
+Comprobar mediante árboles evolutivos y alineaciones de secuencias, la efectividad del Sofosbuvir como potencial fármaco contra SARS Cov 2, de acuerdo a la similitud de las polimerasas dependientes de RNA en sus áreas de acoplamiento (docking).
+\end{objetivo}
+
+
+\frame{\Metodologia}
+
+\begin{Metodologia}
+\frametitle{Metodologia}
+Para el código fuente del artículo científico, el programa Beamer fue seleccionado y usado como plantilla en un archivo de texto creado desde Ubuntu y posteriormente transferido a windows.
+
+Desde el sitio de NCBI se realizó una búsqueda para 7 diferentes HCOV, tratados con fármacos como Remdesivir, Sofosbuvir, Setrobuvir, Ribavirin, Tenofovir e IDX 184, de acuerdo a una recopilación de experimentos realizados por Abdo A. Elﬁky. 
+Se escogió a la polimerasa y virus dependientes, ya que gracias al conjunto de proteínas que lo conforman, el virus logra replicarse en el huésped. 
+La alineación de secuencias fue realizada en Biopython con ayuda de la paquetería incluida, y recopilada en un archivo de texto con formato. fas, para su posterior transferencia al programa de MEGA, donde mediante un BLAST, se logró un corte del ruido excedente a la previa alineación realizada por el método de Clustal W, y guardada en formato. meg para, poder generar un árbol filogenético por método estadístico de Neighbor joining, con aminoácidos. 
+
+\end{Metodologia}
+
+
+\frame{\Resultados}
+
+\begin{Resultados}
+\frametitle{Resultados}
+SARS y MERS son grupos hermanos (fig 5), sin embargo; Al colocar SARS virus detectado en wuhan 2019 en el cladograma, éste se posicionó junto de estos 2 grupos hermanos, con lo cual entendemos que el virus ha emergido con una simple mutación de algún HCov  como respuesta natural, y no de manera sintética en un laboratorio. 
+Esto puede ser una grata sorpresa, por su origen sino, porque al tratar cepas o mutantes de HCOV con fármacos derivados de ATP, UTP y GTP Sofosbuvir, Ribavirina, Setrobuvir, Cefuroxime, Tenofovir e Hidroxicloroquina, se pueden fabricar vacunas profilácticas o terapéuticas de manera dirigida; Es importante recordar, que no es viable una vacuna generalizada para ésta enfermedad, ya que el sector más vulnerable por ésto, son los ancianos, aunado a los escasos casos hallados de jóvenes de entre 25 y 12 años, con síntomas EVC  relacionados al Covid 19.
+
+De acuerdo al cladograma realizada previamente, MERS y SARS como grupos hermanos, son los más cercanos, como era de esperarse entre 2 cepas de HCOV; Probando una vez más que fármacos usados en MERS y SARS, podrían ser candidatos para SARS Cov 2.
+De estos, las enfermedades con el genoma similar son Ebola y Hepatitis C consecutivamente, lo que comprueba que los experimentos realizados por (A.Alfiki) con fármacos como sofosbuvir, Setrobuvir, Remdesivir e IDX 184 derivados de GTP, también son candidatos para tratar a SARS, HCOV; Ya que al ser todos virus de RNA, son tratados con inhibidores de polimerasa y se añaden al mismo sitio de unión. 
+
+\end{Resultados}
+
+
+\frame{/Conclusiones}
+
+\begin{Conclusiones}
+\frametitle{Conclusiones}
+Las anteriores cladogramas, mostraron una cercanía importante entre el SARS Cov 2 y el virus de MERS; Como algunos artículos publicados a lo largo del año, muestran una similitud de hasta el 98% entre algunos HCOV derivados de murciélago y cepas relacionadas como MERS, SARS, Nsp12, Bat SARS no solamente se concluye es la probabilidad de que el virus que hoy nos preocupa SARS Cov 2, haya sido desarrollado artificialmente si no que, algunos de sus cepas derivadas y cercanas a éste, pueden ser objetivo de medicamentos como Sofosbuvir, Setrobuvir e IDX 184 derivados de GTP; Ya que algunas de ellas, fueron tratadas exitosamente con fármacos derivados de GTP y UTP como Remdesivir y Ribavirin desde los años 80.
+Por otro lado, enfermedades como el Ébola, Virus de Inmunodeficiencia Humana, Influenza, Hepatitis B y C, Zika también han sido tratadas exitosamente en el pasado con fármacos como Sofosbuvir, Ribavirina, Galidesivir, Remdesivir, Favipiravir, Cefuroxime, Tenofovir e Hidroxicloroquina, que pueden unirse al sitio activo y son buenos candidatos para ensayos clínicos. Los compuestos Setrobuvir, YAK, e IDX184 pueden acoplarse de mejor manera que los mencionados previamente a SARS-CoV-2 RdRp. Además, compuestos derivados IDX-184 (3,5dihidroxifenilo) oxidanil y (3- hidroxifenil) oxidanyl, confirmaron una eficiencia aún mayor, después de los ensayos de unión, in vitro, y estudios in vivo. La sugerencia es usar nucleótido GTP para obtener inhibidores específicos contra SARSCoV-2 RdRp (Abdo A. Elﬁky) 
+Por lo tanto, dada la estructura de las glicoproteínas de éstos virus, y teniendo un sitio de unión remarcado en la Fig 2 por los residuos y aspartatos mostrados en la misma, se ha optado en ensayos clínicos previos por inhibir a la polimerasa de estos, evitando así que se replique en el huésped, denotando gran eficacia en los mismos, con los fármacos previamente mencionados. En las cladogramas realizadas para éste ensayo, se demuestran la cercanía evolutiva de éstos con le MERS y SARS respectivamente, ya que son virus de RNA y por ello  peligrosos, muestran un ciclo replicativo viral similar, aunque algunos más agresivos que otros: Por tanto, es posible que si se han probado fármacos aprobados por la FDA como Sofosbuvir, Ribavirina, Galidesivir, Remdesivir, Favipiravir, Cefuroxime, Tenofovir e Hidroxicloroquina en EboV, H1N1, HIV, VHC puedan usarse para contra SARS Cov 2 en RdRp. Como recomendación, el Dr. Alfiki recomienda trabajar con nucleótido GTP y sus derivados, como método para contrarrestar los efectos de ésta enfermedad, apoyado con los trabajos del Dr. Antonio Lazcano con el fármaco Sofosbuvir.
+
+
+\end{Conclusiones}
+
+
+
+\end{articulo cientifico}
